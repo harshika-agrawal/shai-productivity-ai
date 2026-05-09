@@ -93,7 +93,8 @@ section[data-testid="stFileUploader"] {
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key = os.getenv("OPENROUTER_API_KEY")
+    api_key=os.getenv("OPENROUTER_API_KEY")
+)
 
 # ---------------- HEADER ---------------- #
 st.markdown("""
@@ -113,7 +114,7 @@ if "memory" not in st.session_state:
 
 with st.sidebar:
 
-    st.header("SHΛi Features")
+    st.header("⚡ SHΛi Features")
 
     st.write("💬 AI Chat")
     st.write("👾 Multi AI Models")
