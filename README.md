@@ -34,16 +34,21 @@ SHΛi is a futuristic AI-powered productivity assistant built using Streamlit an
 
 ## 📁 Project Structure
 SHAi-Productivity-AI/
-│
+
 ├── app.py # Main Streamlit application
+
 ├── requirements.txt # Dependencies
-├── logo.png # App logo
+
+├── shai.png # App logo
+
 ├── README.md # Project documentation
 
 ---
 ## ⚙️ Installation & Setup
 
-Clone the repository```bashgit clone https://github.com/your-username/shai-productivity-ai.gitcd shai-productivity-ai
+Clone the repository:
+
+clone https://github.com/your-username/shai-productivity-ai.gitcd shai-productivity-ai
 
 ## Install dependencies
 
